@@ -1,0 +1,6 @@
+.header{
+  font-family: 'Amatic SC', cursive;
+  background-image: url('../../images/header/bg-header.png');
+  background-size: cover;
+  height: 1000px;
+}
