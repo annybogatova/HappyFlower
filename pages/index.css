@@ -31,6 +31,9 @@
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/main/about/about.css';
+@import '../blocks/main/about/__container/about__container.css';
 @import '../blocks/main/about/__text/about__text.css';
+@import '../blocks/main/services/services.css';
+@import '../blocks/main/services/__headline/services__headline.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
