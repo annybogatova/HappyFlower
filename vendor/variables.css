@@ -1,3 +1,9 @@
 :root{
-  --variables : 10px; /* Переменная : свойтва */ 
+  --light-green-color: #D6FFD8;
+  --extra-light-green-color: #FAFFF1;
+  --light-pink-color: #FFE6E5;
+  --dark-red-color: #8B575C;
+
+  --normal-text-size: 24px;
+
 }

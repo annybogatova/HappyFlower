@@ -1,10 +1,14 @@
 .header__lists{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  min-width: 1070px;
   min-height: 48px;
   list-style: none;
   margin-right: 40px;
-  padding: 0;
+}
+
+
+@media screen and (max-width: 919px){
+  .header__lists{
+    display: none;
+  }
 }
