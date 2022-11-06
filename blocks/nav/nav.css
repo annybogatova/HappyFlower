@@ -4,3 +4,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px){
+  .nav{
+    max-height: 40px;
+  }
+}

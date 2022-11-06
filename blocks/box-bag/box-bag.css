@@ -1,7 +1,13 @@
 .box-bag{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 32px;
+  max-height: 32px;
   margin-right: 200px;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 1401px) {
+  .box-bag{
+    margin-right: 40px;
+  }
 }

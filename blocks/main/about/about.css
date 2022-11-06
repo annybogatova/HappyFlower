@@ -1,6 +1,6 @@
 .about{
   background-color: var(--light-green-color);
-  width: 100%;
+  width: 100vw;
   height: 330px;
   display: flex;
   align-items: center;
