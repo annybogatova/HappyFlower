@@ -1,5 +1,20 @@
 .about__text{
   text-align: center;
   margin: 0;
+  line-height: 40px;
   font-size: 24px;
+}
+
+
+@media screen and (max-width: 481px) {
+  .about__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .about__text {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }
