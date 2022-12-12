@@ -1,8 +1,8 @@
 .main__headline{
+  margin-top: 0;
   font-size: 36px;
   letter-spacing: 0.2em;
   font-weight: normal;
-  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
 }
