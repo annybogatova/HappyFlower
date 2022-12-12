@@ -1,0 +1,7 @@
+.master-class__info{
+    display: grid;
+    column-gap: 40px;
+    row-gap: 70px;
+    grid-template-columns: 550px 570px;
+    grid-template-rows: 420px 60px;
+}

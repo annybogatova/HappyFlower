@@ -1,0 +1,8 @@
+.master-class__picture{
+    display: grid;
+    background-image: url("../../../../images/master-class/master-klass-img.png");
+    background-size: contain;
+    max-width: 550px;
+    max-height: 550px;
+    grid-row: span 2;
+}

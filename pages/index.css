@@ -41,6 +41,15 @@
 @import '../blocks/main/services/services.css';
 
 @import '../blocks/main/master-class/master-class.css';
+@import '../blocks/main/master-class/__container/master-class__container.css';
+@import '../blocks/main/master-class/__info/master-class__info.css';
+@import '../blocks/main/master-class/__picture/master-class__picture.css';
+@import '../blocks/main/master-class/__preview/master-class__preview.css';
+@import '../blocks/main/master-class/__button/master-class__button.css';
+@import '../blocks/main/master-class/__text-container/master-class__text-container.css';
+@import '../blocks/main/master-class/__text/macter-class__text.css';
+@import '../blocks/main/master-class/__button/container/master-class__button-container.css';
+@import '../blocks/main/master-class/__button/text/master-class__button-text.css';
 
 @import '../blocks/main/master-class/master-class.css';
 /* Footer */
