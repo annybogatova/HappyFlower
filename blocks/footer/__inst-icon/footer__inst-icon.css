@@ -1,0 +1,8 @@
+.footer__inst-icon{
+    background-image: url('../../../images/footer/inst-icon.svg');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+    grid-area: insta;
+}

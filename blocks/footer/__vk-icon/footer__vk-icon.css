@@ -1,0 +1,8 @@
+.footer__vk-icon{
+    background-image: url('../../../images/footer/vk-icon.svg');
+    background-size: contain;
+    height: 50px;
+    width: 65px;
+
+    grid-area: vk;
+}

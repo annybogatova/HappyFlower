@@ -1,0 +1,4 @@
+.footer__adress_header{
+    grid-area: adress;
+    font-weight: bold;
+}

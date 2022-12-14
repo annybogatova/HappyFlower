@@ -1,0 +1,4 @@
+.footer__adress_text{
+    grid-area: adress-text;
+    font-weight: lighter;
+}

@@ -1,0 +1,13 @@
+.footer__container{
+    display: grid;
+    grid-template-columns: 70px 230px 62px 70px 160px 62px 230px 62px 50px 44px 65px 44px 50px;
+    grid-template-rows: 30px 70px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "e-mail . . adress . . time . insta . vk . fb"
+      "mail-text mail-text . adress-text adress-text . time-text . insta . vk . fb";
+
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 24px;
+}

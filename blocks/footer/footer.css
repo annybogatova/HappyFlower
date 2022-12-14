@@ -1,4 +1,7 @@
 .footer{
   background-color: #D6FFD8;
-  height: 216px;
+  height: 200px;
+  width: 100vw;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
   }

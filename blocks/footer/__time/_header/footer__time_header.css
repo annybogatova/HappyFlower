@@ -1,0 +1,5 @@
+.footer__time_header{
+    grid-area: time;
+    font-weight: bold;
+
+}
