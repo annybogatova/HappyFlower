@@ -13,12 +13,14 @@
     ". text_anna text_third . pic";
 
     margin-bottom: 100px;
+    margin-left: 240px;
+      margin-right: 240px;
 }
 
 
-@media screen and (max-width: 1601px) {
+@media screen and (max-width: 1281px) {
     .review__container{
-      margin-left: 240px;
-      margin-right: 240px;
+      margin-left: 80px;
+      margin-right: 80px;
     }
   }

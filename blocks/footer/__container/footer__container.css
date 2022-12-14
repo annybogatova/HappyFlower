@@ -11,3 +11,10 @@
     margin-right: 200px;
     padding-top: 24px;
 }
+
+@media screen and (max-width: 1281px) {
+  .footer__container{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
