@@ -1,0 +1,6 @@
+.services__composition{
+    grid-area: composition;
+    background-image: url('../../../../images/servises/comp-img.png');
+    width: 300px;
+    height: 300px;
+}
