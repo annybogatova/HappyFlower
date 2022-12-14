@@ -1,11 +1,18 @@
-.master-class__container{
+.master-class__container {
+  display: grid;
+  column-gap: 40px;
+  row-gap: 70px;
+  grid-template-columns: 550px 570px;
+  grid-template-rows: 420px 60px;
   padding-top: 50px;
   padding-bottom: 120px;
+  margin-left: 240px;
+  margin-right: 200px;
 }
 
-@media screen and (max-width: 1601px) {
-  .master-class__container{
-    margin-left: 200px;
-    margin-right: 200px;
+@media screen and (max-width: 1281px) {
+  .master-class__container {
+    margin-left: 80px;
+    margin-right: 80px;
   }
 }
