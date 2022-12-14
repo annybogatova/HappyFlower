@@ -51,6 +51,21 @@
 @import '../blocks/main/master-class/__button/container/master-class__button-container.css';
 @import '../blocks/main/master-class/__button/text/master-class__button-text.css';
 
-@import '../blocks/main/master-class/master-class.css';
+@import '../blocks/main/review/review.css';
+@import '../blocks/main/review/__container/review__container.css';
+@import '../blocks/user/user.css';
+@import '../blocks/box-user/box-user.css';
+@import '../blocks/user/__name/user__name.css';
+@import '../blocks/user/__name/_first/user__name_first.css';
+@import '../blocks/user/__name/_second/user__name_second.css';
+@import '../blocks/user/__name/_third/user__name_third.css';
+@import '../blocks/user/__pic/_first/user__pic_first.css';
+@import '../blocks/user/__pic/_second/user__pic_second.css';
+@import '../blocks/user/__pic/_third/user__pic_third.css';
+@import '../blocks/user/__text/user__text.css';
+@import '../blocks/user/__text/_first/user__text_first.css';
+@import '../blocks/user/__text/_second/user__text_second.css';
+@import '../blocks/user/__text/_third/user__text_third.css';
+@import '../blocks/user/__main-picture/user__main-picture.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
