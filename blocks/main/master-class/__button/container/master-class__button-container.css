@@ -8,3 +8,11 @@
     max-height: 60px;
     min-width: 210px;
 }
+
+.master-class__button-container:hover{
+  background-color: var(--dark-red-color);
+}
+
+.master-class__button-container:hover .master-class__button-text{
+  color: var(--light-pink-color);
+}
