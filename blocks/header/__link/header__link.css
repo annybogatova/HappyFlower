@@ -1,0 +1,14 @@
+.header__link{
+  font-size: 32px;
+  line-height: 50px;
+  color: black;
+}
+
+.header__link:hover{
+  color: #6D2250;
+}
+
+.header__link:active{
+  color: rgb(0, 134, 251);
+}
+

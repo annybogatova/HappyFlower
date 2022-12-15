@@ -1,0 +1,8 @@
+.footer__fb-icon{
+    background-image: url('../../../images/footer/fb-icon.svg');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+    grid-area: fb;
+}

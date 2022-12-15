@@ -1,0 +1,11 @@
+.header__link-main{
+  font-size: 40px;
+  letter-spacing: 0.1em;
+}
+
+
+@media screen and (max-width: 1024px){
+  .header__link-main{
+    letter-spacing: normal;
+  }
+}
