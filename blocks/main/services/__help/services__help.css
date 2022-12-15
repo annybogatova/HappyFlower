@@ -1,6 +1,15 @@
 .services__help{
     grid-area: help;
-    background-image: url('../../../../images/servises/help-img.png');
-    width: 300px;
-    height: 300px;
+    position: relative;
+    width: 330px;
+    height: 330px;
+}
+
+.services__help:hover .services__help_picture{
+  filter: blur(6px);
+}
+
+.services__help:hover .services__help_picture_link{
+  filter: blur(0);
+  z-index: 1;
 }

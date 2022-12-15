@@ -43,6 +43,12 @@
 @import '../blocks/main/services/__composition/services__composition.css';
 @import '../blocks/main/services/__help/services__help.css';
 @import '../blocks/main/services/__items/services__items.css';
+@import '../blocks/main/services/__composition/_picture/services__composition_picture.css';
+@import '../blocks/main/services/__composition/_picture/_link/services__composition_picture_link.css';
+@import '../blocks/main/services/__items/_picture/services__items_picture.css';
+@import '../blocks/main/services/__items/_picture/_link/services__items_picture_link.css';
+@import '../blocks/main/services/__help/_picture/services__help_picture.css';
+@import '../blocks/main/services/__help/_picture/_link/services__help_picture_link.css';
 
 @import '../blocks/main/master-class/master-class.css';
 @import '../blocks/main/master-class/__container/master-class__container.css';

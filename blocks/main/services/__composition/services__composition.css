@@ -1,6 +1,15 @@
 .services__composition{
     grid-area: composition;
-    background-image: url('../../../../images/servises/comp-img.png');
-    width: 300px;
-    height: 300px;
+    position: relative;
+    width: 330px;
+    height: 330px;
+}
+
+.services__composition:hover .services__composition_picture{
+  filter: blur(6px);
+}
+
+.services__composition:hover .services__composition_picture_link{
+  filter: blur(0);
+  z-index: 1;
 }
