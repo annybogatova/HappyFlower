@@ -1,5 +1,5 @@
 .services__composition{
-    grid-area: composition;
+  display: flex;
     position: relative;
     width: 330px;
     height: 330px;

@@ -1,5 +1,5 @@
 .services__items{
-    grid-area: items;
+    display: flex;
     position: relative;
     width: 330px;
     height: 330px;

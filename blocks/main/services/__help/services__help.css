@@ -1,5 +1,5 @@
 .services__help{
-    grid-area: help;
+    display: flex;
     position: relative;
     width: 330px;
     height: 330px;
