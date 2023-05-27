@@ -1,6 +1,8 @@
 .master-class{
   background-color: var(--light-green-color);
   width: 100vw;
-  max-height: 800px;
-  min-height: 800px;
+  max-height: 670px;
+  min-height: 670px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

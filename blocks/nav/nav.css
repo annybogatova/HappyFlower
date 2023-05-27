@@ -1,12 +1,13 @@
 .nav{
-  max-height: 80px;
+  height: 80px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  font-family: 'Amatic SC', cursive;
 }
 
 @media screen and (max-width: 768px){
   .nav{
-    max-height: 40px;
+    height: 40px;
   }
 }
