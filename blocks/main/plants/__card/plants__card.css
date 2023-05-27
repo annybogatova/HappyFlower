@@ -1,0 +1,8 @@
+.plants__card {
+  text-decoration: none;
+  border: 1px;
+  min-height: 320px;
+  max-height: 320px;
+  min-width: 250px;
+  max-width: 250px;
+}

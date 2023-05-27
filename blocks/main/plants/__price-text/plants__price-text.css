@@ -1,0 +1,20 @@
+.plants__price-text{
+  margin: 6px ;
+  color: #000;
+  line-height: 20px;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 481px) {
+  .plants__price-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .plants__price-text {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
