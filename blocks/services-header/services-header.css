@@ -1,0 +1,11 @@
+.services-header{
+  font-family: 'Amatic SC', cursive;
+  max-width: 100vw;
+  min-width: 100vw;
+}
+
+@media screen and (max-width: 768px){
+  .header{
+    height: 400px;
+  }
+}

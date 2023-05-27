@@ -1,0 +1,6 @@
+.hold__container{
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-items: flex-start;
+}

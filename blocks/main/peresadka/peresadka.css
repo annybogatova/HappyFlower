@@ -1,0 +1,8 @@
+.peresadka{
+  background-color: var(--light-green-color);
+  width: 100vw;
+  max-height: 490px;
+  min-height: 490px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

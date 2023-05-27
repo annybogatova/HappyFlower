@@ -1,0 +1,10 @@
+.peresadka__picture{
+  display: flex;
+  background-image: url('../../../../images/services/peresad.jpg');
+  background-size: cover;
+  background-position: center center;
+  max-width: 320px;
+  min-width: 320px;
+  max-height: 400px;
+  min-height: 400px;
+}
