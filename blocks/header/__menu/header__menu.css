@@ -1,0 +1,11 @@
+.header__menu{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+@media screen and (max-width: 1401px) {
+  .header__menu{
+   margin-right: 40px;
+  }
+}
+

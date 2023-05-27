@@ -5,6 +5,7 @@
   height: 80px;
 }
 
+
 @media screen and (max-width: 1401px) {
   .box-logo{
     margin-left: 40px;
@@ -19,7 +20,6 @@
 
 @media screen and (max-width: 768px) {
   .box-logo{
-    width: 30px;
-    height: 40px;
+    display: none;
   }
 }

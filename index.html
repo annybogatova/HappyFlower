@@ -17,27 +17,36 @@
           <img class="logo" src="./images/header/logo/logo.svg" alt="логотип цветочный магазинчик счастья">
         </div>
         <ul class="lists header__lists">
-          <li class="list header__list header__list-main"><a
-              class="link header__link header__link-main header__link_active" href="#">HAPPYFLOWER</a>
+          <li class="list header__list header__list-main"><a class="link header__link header__link-main"
+              href="./index.html">HAPPYFLOWER</a>
           </li>
-          <li class="list header__list"><a class="link header__link" href="#">Магазин</a></li>
+          <li class="list header__list"><a class="link header__link" href="./shop.html">Магазин</a></li>
           <li class="list header__list"><a class="link header__link" href="./services.html">Услуги</a></li>
           <li class="list header__list"><a class="link header__link" href="#">Доставка</a></li>
           <li class="list header__list"><a class="link header__link" href="#">Контакты</a></li>
         </ul>
       </div>
-      <div class="box-bag">
-        <img class="bag" src="./images/header/bag-icon.svg" alt="знак корзины">
+      <div class="header__menu">
+        <div class="box-bag">
+          <img class="bag" src="./images/header/bag-icon.svg" alt="знак корзины">
+        </div>
+        <div class="hamburger">
+          <input type="checkbox" id="hamburger__toggle">
+          <label class="hamburger__btn" for="hamburger__toggle">
+            <span></span>
+          </label>
+        </div>
       </div>
     </nav>
+
     <article class="header__container">
       <div class="header__poster">
         <h1 class="header__title">Цветочный магазинчик счастья</h1>
       </div>
     </article>
   </header>
-  <main class="main">
 
+  <main class="main">
     <section class="about">
       <div class="about__container">
         <p class="about__text">Цветочный магазинчик счастья - это небольшой, но очень тёплый и уютный магазинчик,
@@ -160,9 +169,10 @@
           сб-вс: с 11.00 до 20.00
           (кроме праздников)</p>
       </div>
-      <div class="footer__inst-icon"></div>
-      <div class="footer__vk-icon"></div>
-      <div class="footer__fb-icon"></div>
+
+      <a class="footer__inst-icon" href="https://www.instagram.com/"></a>
+      <a class="footer__vk-icon" href="https://vk.com/"></a>
+      <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
     </div>
   </footer>
   <script src="./script/index.js"></script>

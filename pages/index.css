@@ -18,6 +18,10 @@
 @import '../blocks/header/__nav/header__nav.css';
 @import '../blocks/header/__poster/header_poster.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__menu/header__menu.css';
+@import '../blocks/hamburger/hamburger.css';
+@import '../blocks/hamburger/__btn/hamburger__btn.css';
+
 /* Link */
 @import  '../blocks/link/link.css';
 /* List */
