@@ -1,0 +1,6 @@
+.blog__image{
+  object-fit: cover;
+  height: 700px;
+  width: 1000px;
+  display: inline-block;
+}
