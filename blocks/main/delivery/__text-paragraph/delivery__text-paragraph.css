@@ -1,0 +1,19 @@
+.delivery__text-paragraph {
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 481px) {
+  .delivery__text-paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .delivery__text-paragraph {
+
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
