@@ -145,7 +145,7 @@
 
   </main>
   <footer class="footer">
-    <!-- <div class="footer__container">
+    <div class="footer__container">
       <div class="footer__email">
         <p class="footer__email_header">e-mail</p>
         <p class="footer__email_text">happyflover.l@gmail.com</p>
@@ -165,11 +165,10 @@
         <a class="footer__vk-icon" href="https://vk.com/"></a>
         <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
       </div>
-    </div> -->
-    <!--#include file="footer.html"-->
+    </div>
     <!--#config timefmt="%Y"-->
     <!--#set var="currentYear" value="$DATE_LOCAL"-->
-    <p class="footer__year">&copy; 2022 -<!--#echo var="currentYear"--> </p>
+    <p class="footer__year">&copy; 2022 - <!--#echo var="currentYear"--> </p>
   </footer>
   <script src="./script/index.js"></script>
 </body>
