@@ -5,5 +5,20 @@
   min-width: 400px;
   max-height: 500px;
   min-height: 500px;
+}
 
+@media screen and (max-width:768px) {
+  .delivery__image{
+    max-width: 100vw;
+    max-height: 300px;
+    min-height: 300px;
+  }
+}
+
+
+
+@media screen and (max-width:480px) {
+  .delivery__image{
+    max-width: 100vw;
+  }
 }
