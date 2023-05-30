@@ -1,5 +1,11 @@
 .footer__time_header{
-    grid-area: time;
     font-weight: bold;
+
+}
+
+@media screen and (max-width:480px) {
+  .footer__time_header{
+    max-width: 45px;
+  }
 
 }

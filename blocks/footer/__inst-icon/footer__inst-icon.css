@@ -4,5 +4,19 @@
     height: 50px;
     width: 50px;
 
-    grid-area: insta;
+    display: flex;
+}
+
+@media screen and (max-width:1024px) {
+  .footer__inst-icon{
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .footer__inst-icon{
+    height: 30px;
+    width: 30px;
+  }
 }

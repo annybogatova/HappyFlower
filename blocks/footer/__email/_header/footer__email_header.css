@@ -1,4 +1,10 @@
 .footer__email_header{
     font-weight: bold;
-    grid-area: e-mail;
+}
+
+@media screen and (max-width:480px) {
+  .footer__email_header{
+    min-width: 45px;
+  }
+
 }

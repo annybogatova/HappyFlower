@@ -1,20 +1,41 @@
-.footer__container{
-    display: grid;
-    grid-template-columns: 70px 230px 62px 70px 160px 62px 230px 62px 50px 44px 65px 44px 50px;
-    grid-template-rows: 30px 70px;
-    gap: 0px 0px;
-    grid-template-areas:
-      "e-mail . . adress . . time . insta . vk . fb"
-      "mail-text mail-text . adress-text adress-text . time-text . insta . vk . fb";
-
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-top: 24px;
+.footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  line-height: 30px;
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1280px) {
+  .footer__container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width:480px) {
   .footer__container{
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 72px;
+    padding-right: 72px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .footer__container{
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

@@ -1,3 +1,13 @@
 .footer__time{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+@media screen and (max-width:480px) {
+  .footer__time {
+    flex-direction: row;
+    padding-bottom: 5px;
+  }
+}
+
