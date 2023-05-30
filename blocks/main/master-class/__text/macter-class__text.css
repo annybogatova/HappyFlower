@@ -1,4 +1,19 @@
 .macter-class__text{
-    font-size: 24px;
-    letter-spacing: 0.2em;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 481px) {
+  .macter-class__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .macter-class__text {
+    font-size: 14px;
+    line-height: 25px;
+  }
 }

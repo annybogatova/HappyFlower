@@ -1,17 +1,27 @@
 .master-class__container {
-  display: grid;
-  column-gap: 40px;
-  row-gap: 70px;
-  grid-template-columns: 550px 570px;
-  grid-template-rows: 420px 60px;
-  padding-bottom: 80px;
-  margin-left: 240px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 200px;
   margin-right: 200px;
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1599px) {
   .master-class__container {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .master-class__container{
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .master-class__container{
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

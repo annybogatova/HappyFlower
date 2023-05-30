@@ -1,3 +1,4 @@
 .master-class__button{
-    display: grid;
+  display: flex;
+  justify-content: center;
 }
