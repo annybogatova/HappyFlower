@@ -1,7 +1,7 @@
 .online-consultation__picture{
   display: flex;
   background-image: url('../../../../images/services/online_cons.png');
-  background-size: contain;
+  background-size: cover;
   max-width: 350px;
   min-width: 350px;
   max-height: 500px;

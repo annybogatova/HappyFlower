@@ -6,3 +6,11 @@
   text-align:left;
   margin-left: 50px;
 }
+
+@media screen and (max-width:1023px) {
+.hold__text{
+  margin-left: 0;
+  align-items: center;
+  text-align: center;
+}
+}

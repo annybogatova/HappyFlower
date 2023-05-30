@@ -4,3 +4,26 @@
   display: flex;
   align-items: flex-start;
 }
+@media screen and (max-width:1601px) {
+  .peresadka__container{
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  .peresadka__container{
+    margin-right: 72px;
+    margin-left: 72px;
+  }
+
+}
+
+@media screen and (max-width:321px) {
+  .peresadka__container{
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+}
