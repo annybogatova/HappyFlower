@@ -1,15 +1,29 @@
-.services__composition{
+.services__composition {
   display: flex;
-    position: relative;
-    width: 330px;
-    height: 330px;
+  position: relative;
+  width: 330px;
+  height: 330px;
 }
 
-.services__composition:hover .services__composition_picture{
+.services__composition:hover .services__composition_picture {
   filter: blur(6px);
 }
 
-.services__composition:hover .services__composition_picture_link{
+.services__composition:hover .services__composition_picture_link {
   filter: blur(0);
   z-index: 1;
+}
+
+@media screen and (max-width:990px) {
+  .services__composition {
+    width: 295px;
+    height: 295px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .services__composition {
+    width: 270px;
+    height: 270px;
+  }
 }

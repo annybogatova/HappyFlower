@@ -1,5 +1,6 @@
 .services__composition_picture {
   background-image: url('../../../../../images/services/comp-img.png');
+  background-size: contain;
   width: 300px;
   height: 300px;
   position: absolute;
@@ -7,3 +8,19 @@
   transition: all 300ms ease;
 }
 
+@media screen and (max-width:1070px) {
+  .services__composition_picture {
+    width: 270px;
+    height: 270px;
+    top: 25px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .services__composition_picture {
+    width: 250px;
+    height: 250px;
+    top: 20px;
+  }
+}
