@@ -107,34 +107,32 @@
     </section>
   </main>
 
-  <!-- <footer class="footer">
+  <footer class="footer">
     <div class="footer__container">
-      <div class="footer__email footer__email_header">
-        <p>e-mail</p>
+      <div class="footer__email">
+        <p class="footer__email_header">e-mail</p>
+        <p class="footer__email_text">happyflover.l@gmail.com</p>
       </div>
-      <div class="footer__email footer__email_text">
-        <p>happyflover.l@gmail.com</p>
+      <div class="footer__adress">
+        <p class="footer__adress_header">Адрес</p>
+        <p class="footer__adress_text">г. Москва, м. Авиамоторная, ул. Первомайская, д. 18к2</p>
       </div>
-      <div class="footer__adress footer__adress_header">
-        <p>Адрес</p>
-      </div>
-      <div class="footer__adress footer__adress_text">
-        <p>г. Москва, м. Авиамоторная, ул. Первомайская, д. 18к2</p>
-      </div>
-      <div class="footer__time footer__time_header">
-        <p>Время работы</p>
-      </div>
-      <div class="footer__time footer__time_text">
-        <p>пн-пт: с 9.00 до 21.00
-          сб-вс: с 11.00 до 20.00
+      <div class="footer__time">
+        <p class="footer__time_header">Время работы</p>
+        <p class="footer__time_text">пн-пт: с 9.00 до 21.00 <br>
+          сб-вс: с 11.00 до 20.00 <br>
           (кроме праздников)</p>
       </div>
-
-      <a class="footer__inst-icon" href="https://www.instagram.com/"></a>
-      <a class="footer__vk-icon" href="https://vk.com/"></a>
-      <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
+      <div class="footer__social">
+        <a class="footer__inst-icon" href="https://www.instagram.com/"></a>
+        <a class="footer__vk-icon" href="https://vk.com/"></a>
+        <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
+      </div>
     </div>
-  </footer> -->
+    <!--#config timefmt="%Y"-->
+    <!--#set var="currentYear" value="$DATE_LOCAL"-->
+    <p class="footer__year">&copy; 2022 - <!--#echo var="currentYear"--> </p>
+  </footer>
   <script src="./script/index.js"></script>
 </body>
 

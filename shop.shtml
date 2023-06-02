@@ -20,11 +20,11 @@
           <li class="list header__list header__list-main"><a class="link header__link header__link-main"
               href="./index.shtml">HAPPYFLOWER</a>
           </li>
-          <li class="list header__list"><a class="link header__link header__link_active" href="./shop.html">Магазин</a>
+          <li class="list header__list"><a class="link header__link header__link_active" href="./shop.shtml">Магазин</a>
           </li>
-          <li class="list header__list"><a class="link header__link" href="./services.html">Услуги</a></li>
-          <li class="list header__list"><a class="link header__link" href="./delivery.html">Доставка</a></li>
-          <li class="list header__list"><a class="link header__link" href="./blog.html">Блог</a></li>
+          <li class="list header__list"><a class="link header__link" href="./services.shtml">Услуги</a></li>
+          <li class="list header__list"><a class="link header__link" href="./delivery.shtml">Доставка</a></li>
+          <li class="list header__list"><a class="link header__link" href="./blog.shtml">Блог</a></li>
         </ul>
       </div>
       <div class="header__menu">
@@ -100,31 +100,29 @@
   </main>
   <footer class="footer">
     <div class="footer__container">
-      <div class="footer__email footer__email_header">
-        <p>e-mail</p>
+      <div class="footer__email">
+        <p class="footer__email_header">e-mail</p>
+        <p class="footer__email_text">happyflover.l@gmail.com</p>
       </div>
-      <div class="footer__email footer__email_text">
-        <p>happyflover.l@gmail.com</p>
+      <div class="footer__adress">
+        <p class="footer__adress_header">Адрес</p>
+        <p class="footer__adress_text">г. Москва, м. Авиамоторная, ул. Первомайская, д. 18к2</p>
       </div>
-      <div class="footer__adress footer__adress_header">
-        <p>Адрес</p>
-      </div>
-      <div class="footer__adress footer__adress_text">
-        <p>г. Москва, м. Авиамоторная, ул. Первомайская, д. 18к2</p>
-      </div>
-      <div class="footer__time footer__time_header">
-        <p>Время работы</p>
-      </div>
-      <div class="footer__time footer__time_text">
-        <p>пн-пт: с 9.00 до 21.00
-          сб-вс: с 11.00 до 20.00
+      <div class="footer__time">
+        <p class="footer__time_header">Время работы</p>
+        <p class="footer__time_text">пн-пт: с 9.00 до 21.00 <br>
+          сб-вс: с 11.00 до 20.00 <br>
           (кроме праздников)</p>
       </div>
-
-      <a class="footer__inst-icon" href="https://www.instagram.com/"></a>
-      <a class="footer__vk-icon" href="https://vk.com/"></a>
-      <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
+      <div class="footer__social">
+        <a class="footer__inst-icon" href="https://www.instagram.com/"></a>
+        <a class="footer__vk-icon" href="https://vk.com/"></a>
+        <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
+      </div>
     </div>
+    <!--#config timefmt="%Y"-->
+    <!--#set var="currentYear" value="$DATE_LOCAL"-->
+    <p class="footer__year">&copy; 2022 - <!--#echo var="currentYear"--> </p>
   </footer>
   <script src="./script/index.js"></script>
 </body>

@@ -20,10 +20,10 @@
           <li class="list header__list header__list-main"><a class="link header__link header__link-main"
               href="./index.shtml">HAPPYFLOWER</a>
           </li>
-          <li class="list header__list"><a class="link header__link" href="./shop.html">Магазин</a></li>
-          <li class="list header__list"><a class="link header__link" href="./services.html">Услуги</a></li>
-          <li class="list header__list"><a class="link header__link" href="./delivery.html">Доставка</a></li>
-          <li class="list header__list"><a class="link header__link" href="./blog.html">Блог</a></li>
+          <li class="list header__list"><a class="link header__link" href="./shop.shtml">Магазин</a></li>
+          <li class="list header__list"><a class="link header__link" href="./services.shtml">Услуги</a></li>
+          <li class="list header__list"><a class="link header__link" href="./delivery.shtml">Доставка</a></li>
+          <li class="list header__list"><a class="link header__link" href="./blog.shtml">Блог</a></li>
         </ul>
       </div>
       <div class="header__menu">
@@ -106,42 +106,44 @@
     <section class="review">
       <h2 class="main__headline">ОТЗЫВЫ</h2>
       <div class="review__container">
-        <div class="box-user user__pic_first">
-          <img class="user" src="./images/review/user-icon.svg" alt="Знак контакта">
+        <div class="user">
+          <img src="./images/review/user-icon.svg" alt="Знак контакта" class="user__box">
+          <div class="user__text">
+            <div class="user__name">Ольга</div>
+            <p class="user__text-paragraph">
+              Прекрасное место!
+              Очень атмосферно, красиво оформлено, большой выбор. Видно, что любят своё дело и несут добро и тепло
+              каждому
+              посетителю. Все растения как на подбор. Огромный ассортимент растений, горшков и наполнения. Есть мягкий
+              диванчик. Спасибо большое за отличный подарок! Именинник доволен!
+            </p>
+          </div>
         </div>
-        <div class="user__name user__name_first">Ольга</div>
-        <div class="user__text user__text_first">
-          <p>Прекрасное место!
-            Очень атмосферно, красиво оформлено, большой выбор. Видно, что любят своё дело и несут добро и тепло каждому
-            посетителю. Все растения как на подбор. Огромный ассортимент растений, горшков и наполнения. Есть мягкий
-            диванчик. Спасибо большое за отличный подарок! Именинник доволен!</p>
+        <div class="user">
+          <img src="./images/review/user-icon.svg" alt="Знак контакта" class="user__box">
+          <div class="user__text">
+            <div class="user__name">Артём</div>
+            <p class="user__text-paragraph">
+              Невероятный магазин суккулентов! Большой выбор растений, различных дизайнерских горшочков и расходных
+              материалов. Красивый магазин и приветливый персонал. Любителям суккулентов рекомендуется!
+            </p>
+          </div>
         </div>
-
-        <div class="box-user user__pic_second">
-          <img class="user" src="./images/review/user-icon.svg" alt="Знак контакта">
+        <div class="user">
+          <img src="./images/review/user-icon.svg" alt="Знак контакта" class="user__box">
+          <div class="user__text">
+            <div class="user__name">Анна</div>
+            <p class="user__text-paragraph">
+              Магазин с очень приятной атмосферой, персонал вежливый и очень хорошо объяснил как ухаживать за
+              растениями,
+              упаковка вообще как отдельный вид искусства, покупала подруге, но однозначно вернусь сюда, чтобы выбрать
+              что-нибудь себе
+            </p>
+          </div>
         </div>
-        <div class="user__name user__name_second">Артём</div>
-        <div class="user__text user__text_second">
-          <p>Невероятный магазин суккулентов! Большой выбор растений, различных дизайнерских горшочков и расходных
-            материалов. Красивый магазин и приветливый персонал. Любителям суккулентов рекомендуется!</p>
-        </div>
-
-        <div class="box-user user__pic_third">
-          <img class="user" src="./images/review/user-icon.svg" alt="Знак контакта">
-        </div>
-        <div class="user__name user__name_third">Анна</div>
-        <div class="user__text user__text_third">
-          <p>
-            Магазин с очень приятной атмосферой, персонал вежливый и очень хорошо объяснил как ухаживать за растениями,
-            упаковка вообще как отдельный вид искусства, покупала подруге, но однозначно вернусь сюда, чтобы выбрать
-            что-нибудь себе
-          </p>
-        </div>
-
-        <div class="user__main-picture"></div>
       </div>
-
     </section>
+
 
   </main>
   <footer class="footer">
