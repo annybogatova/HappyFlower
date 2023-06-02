@@ -69,16 +69,9 @@
 @import '../blocks/user/user.css';
 @import '../blocks/box-user/box-user.css';
 @import '../blocks/user/__name/user__name.css';
-@import '../blocks/user/__name/_first/user__name_first.css';
-@import '../blocks/user/__name/_second/user__name_second.css';
-@import '../blocks/user/__name/_third/user__name_third.css';
-@import '../blocks/user/__pic/_first/user__pic_first.css';
-@import '../blocks/user/__pic/_second/user__pic_second.css';
-@import '../blocks/user/__pic/_third/user__pic_third.css';
 @import '../blocks/user/__text/user__text.css';
-@import '../blocks/user/__text/_first/user__text_first.css';
-@import '../blocks/user/__text/_second/user__text_second.css';
-@import '../blocks/user/__text/_third/user__text_third.css';
+@import '../blocks/user/__box/user__box.css';
+@import '../blocks/user/__text-paragraph/user__text-paragraph.css';
 @import '../blocks/user/__main-picture/user__main-picture.css';
 /* Footer */
 @import '../blocks/footer/footer.css';

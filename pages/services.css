@@ -70,7 +70,9 @@
 @import '../blocks/footer/__time/footer__time.css';
 @import '../blocks/footer/__time/_header/footer__time_header.css';
 @import '../blocks/footer/__time/_text/footer__time_text.css';
+@import '../blocks/footer/__social/footer__social.css';
 @import '../blocks/footer/__inst-icon/footer__inst-icon.css';
 @import '../blocks/footer/__vk-icon/footer__vk-icon.css';
 @import '../blocks/footer/__fb-icon/footer__fb-icon.css';
+@import '../blocks/footer/__year/footer__year.css';
 
