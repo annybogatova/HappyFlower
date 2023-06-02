@@ -6,3 +6,11 @@
   text-align:left;
   margin-right: 50px;
 }
+
+@media screen and (max-width:1024px) {
+  .peresadka__text {
+    margin-right: 0;
+    align-items: center;
+    text-align: center;
+  }
+}
