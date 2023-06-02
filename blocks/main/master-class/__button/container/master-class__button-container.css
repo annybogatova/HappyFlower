@@ -19,8 +19,25 @@
   color: var(--light-pink-color);
 }
 
+
 @media screen and (max-width: 1024px) {
   .master-class__button-container{
     margin-left: 152px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .master-class__button-container{
+    margin-left: 207px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .master-class__button-container{
+    margin-left: 68px;
+    min-height: 45px;
+    max-height: 45px;
+  }
+}
+

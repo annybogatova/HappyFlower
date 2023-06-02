@@ -21,6 +21,9 @@
   .master-class__text-container {
     min-width: 624px;
     max-width: 624px;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
   }
 }
 

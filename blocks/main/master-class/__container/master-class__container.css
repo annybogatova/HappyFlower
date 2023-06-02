@@ -16,6 +16,8 @@
   .master-class__container{
     margin-left: 72px;
     margin-right: 72px;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
