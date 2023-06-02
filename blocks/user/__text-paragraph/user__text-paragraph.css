@@ -1,0 +1,10 @@
+.user__text-paragraph{
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (max-width:480px) {
+  .user__text-paragraph{
+    font-size: 12px;
+  }
+}
