@@ -1,16 +1,16 @@
-.hold__text{
+.hold__text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  text-align:left;
+  text-align: left;
   margin-left: 50px;
 }
 
-@media screen and (max-width:1023px) {
-.hold__text{
-  margin-left: 0;
-  align-items: center;
-  text-align: center;
-}
+@media screen and (max-width:1024px) {
+  .hold__text {
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
 }
