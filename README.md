@@ -33,4 +33,4 @@
 
 ### Посмотреть сайт можно по ссылке ↓
 
-[«Сам Проект»](https://nicowitharedcarnation.github.io/HappyFlover/)
+[«Сам Проект»](https://annybogatova.github.io/HappyFlower/)
