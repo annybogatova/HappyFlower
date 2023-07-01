@@ -1,0 +1,18 @@
+.peresadka__text_paragraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  font-size: 16px;
+}
+@media screen and (max-width: 481px) {
+  .peresadka__text_paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .peresadka__text_paragraph {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}

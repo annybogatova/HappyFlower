@@ -1,0 +1,18 @@
+.services__button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-pink-color);
+  min-width: 280px;
+  max-width: 280px;
+  min-height: 50px;
+  max-height: 50px;
+}
+
+.services__button-container:hover{
+background-color: var(--dark-red-color);
+}
+
+.services__button-container:hover .services__button-text{
+color: var(--light-pink-color);
+}

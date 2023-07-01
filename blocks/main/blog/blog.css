@@ -1,0 +1,10 @@
+.blog {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+@media screen and (max-width:768px) {
+  .blog{
+    margin-top: 20px;
+  }
+}

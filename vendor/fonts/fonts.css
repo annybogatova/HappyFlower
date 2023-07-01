@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('../fonts/Amatic-SC/AmaticSC-Bold.woff2') format('woff2'),
+       url('../fonts/Amatic-SC/AmaticSC-Bold.woff') format('woff'),
+       url('../fonts/Amatic-SC/AmaticSC-Bold.ttf') format('tff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Red Hat Mono';
+  src: url('../fonts/Red-Hat-Mono/RedHatMono-Light.woff2') format('woff2'),
+       url('../fonts/Red-Hat-Mono/RedHatMono-Light.woff') format('woff'),
+       url('../fonts/Red-Hat-Mono/RedHatMono-Light.ttf') format('tff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,63 @@
+@import '../vendor/normalize.css';
+@import '../vendor/variables.css';
+@import '../vendor/fonts/fonts.css';
+/* Blocks */
+@import '../blocks/page/page.css';
+/* Box*/
+@import '../blocks/box-logo/box-logo.css';
+@import '../blocks/box-bag/box-bag.css';
+/* Header */
+@import '../blocks/header/header.css';
+@import '../blocks/header/__container/header__container.css';
+@import '../blocks/header/__link/header__link.css';
+@import '../blocks/header/__list/header__list.css';
+@import '../blocks/header/__list-main/header__list-main.css';
+@import '../blocks/header/__link-main/header__link-main.css';
+@import '../blocks/header/__link/_active/header__link_active.css';
+@import '../blocks/header/__lists/header__lists.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__poster/header_poster.css';
+@import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__menu/header__menu.css';
+@import '../blocks/hamburger/hamburger.css';
+@import '../blocks/hamburger/__btn/hamburger__btn.css';
+
+/* Link */
+@import  '../blocks/link/link.css';
+/* List */
+@import  '../blocks/list/list.css';
+@import '../blocks/lists/lists.css';
+/* Logo */
+@import  '../blocks/logo/logo.css';
+/* Bag */
+@import '../blocks/bag/bag.css';
+/* Navigation */
+@import  '../blocks/nav/nav.css';
+@import  '../blocks/nav/__container/nav__container.css';
+/* Main */
+@import '../blocks/main/main.css';
+@import '../blocks/main/__headline/main__headline.css';
+/*Plants*/
+@import '../blocks/main/plants/plants.css';
+@import '../blocks/main/plants/__card/plants__card.css';
+@import '../blocks/main/plants/__cards/plants__cards.css';
+@import '../blocks/main/plants/__card-image/plants__card-image.css';
+@import '../blocks/main/plants/__price/plants__price.css';
+@import '../blocks/main/plants/__price-text/plants__price-text.css';
+/* Footer */
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__container/footer__container.css';
+@import '../blocks/footer/__adress/footer__adress.css';
+@import '../blocks/footer/__adress/_header/footer__adress_header.css';
+@import '../blocks/footer/__adress/_text/footer__adress_text.css';
+@import '../blocks/footer/__email/footer__email.css';
+@import '../blocks/footer/__email/_header/footer__email_header.css';
+@import '../blocks/footer/__email/_text/footer__email_text.css';
+@import '../blocks/footer/__time/footer__time.css';
+@import '../blocks/footer/__time/_header/footer__time_header.css';
+@import '../blocks/footer/__time/_text/footer__time_text.css';
+@import '../blocks/footer/__social/footer__social.css';
+@import '../blocks/footer/__inst-icon/footer__inst-icon.css';
+@import '../blocks/footer/__vk-icon/footer__vk-icon.css';
+@import '../blocks/footer/__fb-icon/footer__fb-icon.css';
+@import '../blocks/footer/__year/footer__year.css';

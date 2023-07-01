@@ -1,0 +1,25 @@
+.peresadka{
+  background-color: var(--light-green-color);
+  width: 100vw;
+  max-height: 490px;
+  min-height: 490px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:1024px) {
+  .peresadka{
+    min-height: 960px;
+    max-height: 960px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .peresadka{
+    min-height: 930px;
+    max-height: 930px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+

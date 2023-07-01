@@ -1,0 +1,24 @@
+.footer__fb-icon{
+    background-image: url('../../../images/footer/fb-icon.svg');
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+
+    display: flex;
+}
+
+@media screen and (max-width:1024px) {
+  .footer__fb-icon{
+    height: 40px;
+    width: 40px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .footer__fb-icon{
+    height: 30px;
+    width: 30px;
+  }
+}
+

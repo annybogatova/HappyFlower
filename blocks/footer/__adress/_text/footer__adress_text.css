@@ -1,0 +1,9 @@
+.footer__adress_text{
+}
+
+@media screen and (max-width:480px) {
+  .footer__adress_text{
+    margin-left: 27px;
+  }
+}
+

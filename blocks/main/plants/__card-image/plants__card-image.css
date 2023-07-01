@@ -1,0 +1,6 @@
+.plants__card-image{
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}

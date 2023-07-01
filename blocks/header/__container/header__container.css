@@ -1,0 +1,6 @@
+.header__container{
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}

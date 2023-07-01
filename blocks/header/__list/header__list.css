@@ -1,0 +1,18 @@
+.header__list{
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 50px;
+  min-height: 50px;
+
+  margin-left: 40px;
+}
+
+
+@media screen and (max-width: 1023px){
+  .header__list{
+    margin-left: 10px;
+
+  max-width: 85px;
+  min-width: 85px;
+  }
+}

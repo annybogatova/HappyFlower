@@ -1,0 +1,29 @@
+.services__help{
+    display: flex;
+    position: relative;
+    width: 330px;
+    height: 330px;
+}
+
+.services__help:hover .services__help_picture{
+  filter: blur(6px);
+}
+
+.services__help:hover .services__help_picture_link{
+  filter: blur(0);
+  z-index: 1;
+}
+
+@media screen and (max-width:990px) {
+  .services__help {
+    width: 295px;
+    height: 295px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .services__help {
+    width: 270px;
+    height: 270px;
+  }
+}

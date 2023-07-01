@@ -1,0 +1,22 @@
+.footer__vk-icon{
+    background-image: url('../../../images/footer/vk-icon.svg');
+    background-size: contain;
+    height: 50px;
+    width: 65px;
+
+    display: flex;
+}
+
+@media screen and (max-width:1024px) {
+  .footer__vk-icon{
+    height: 40px;
+    width: 52px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .footer__vk-icon{
+    height: 30px;
+    width: 39px;
+  }
+}

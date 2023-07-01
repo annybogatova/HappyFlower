@@ -1,0 +1,13 @@
+.nav{
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Amatic SC', cursive;
+}
+
+@media screen and (max-width: 768px){
+  .nav{
+    height: 40px;
+  }
+}

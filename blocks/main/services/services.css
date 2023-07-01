@@ -1,0 +1,14 @@
+.services{
+  width: 100vw;
+  max-height: 420px;
+  min-height: 420px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .services{
+    min-height: 1140px;
+    max-height: 1140px;
+  }
+}

@@ -1,0 +1,25 @@
+.delivery {
+  margin: 50px 200px 50px 200px;
+}
+
+@media screen and (max-width:1599px) {
+  .delivery {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .delivery {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .delivery {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

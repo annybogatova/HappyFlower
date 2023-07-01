@@ -1,0 +1,31 @@
+.services__items{
+    display: flex;
+    position: relative;
+    width: 330px;
+    height: 330px;
+}
+
+.services__items:hover .services__items_picture{
+  filter: blur(6px);
+}
+
+.services__items:hover .services__items_picture_link{
+  filter: blur(0);
+  z-index: 1;
+}
+
+@media screen and (max-width:990px) {
+  .services__items {
+    width: 295px;
+    height: 295px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .services__items {
+    width: 270px;
+    height: 270px;
+  }
+}
+

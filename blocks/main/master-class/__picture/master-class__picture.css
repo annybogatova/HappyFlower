@@ -1,0 +1,49 @@
+.master-class__picture{
+    display: flex;
+    background-image: url("../../../../images/master-class/master-klass-img.png");
+    background-size: cover;
+    background-position: center center;
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 550px;
+    min-height: 550px;
+}
+
+@media screen and (max-width:1024px) {
+  .master-class__picture{
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 450px;
+    min-height: 450px;
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .master-class__picture{
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 550px;
+    min-height: 550px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .master-class__picture{
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .master-class__picture{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
+

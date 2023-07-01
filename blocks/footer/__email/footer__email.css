@@ -1,0 +1,12 @@
+.footer__email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .footer__email {
+    flex-direction: row;
+    padding-bottom: 5px;
+  }
+}

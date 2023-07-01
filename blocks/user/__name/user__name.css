@@ -1,0 +1,25 @@
+.user__name {
+  display: flex;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  min-height: 50px;
+  align-items: center;
+}
+
+@media screen and (max-width:768px) {
+  .user__name{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .user__name{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .user__name{
+    font-size: 14px;
+  }
+}

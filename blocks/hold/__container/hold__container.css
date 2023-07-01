@@ -1,0 +1,33 @@
+.hold__container {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (max-width:1599px) {
+  .hold__container {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .hold__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .hold__container {
+    margin-right: 72px;
+    margin-left: 72px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .hold__container {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}

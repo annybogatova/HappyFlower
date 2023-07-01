@@ -1,0 +1,10 @@
+.footer__adress_header{
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+  .footer__adress_header{
+    min-width: 45px;
+  }
+
+}

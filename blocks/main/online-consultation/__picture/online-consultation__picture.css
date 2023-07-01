@@ -1,0 +1,28 @@
+.online-consultation__picture{
+  background-image: url('../../../../images/services/online_cons.png');
+  background-size: cover;
+  background-position: center center;
+  align-self: center;
+  max-width: 350px;
+  min-width: 350px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+@media screen and (max-width:1024px) {
+  .online-consultation__picture{
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 500px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .online-consultation__picture{
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+}

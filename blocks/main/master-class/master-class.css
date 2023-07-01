@@ -1,0 +1,28 @@
+.master-class{
+  background-color: var(--light-green-color);
+  width: 100vw;
+  max-height: 670px;
+  min-height: 670px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .master-class{
+    max-height: 550px;
+    min-height: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .master-class{
+    max-height: 870px;
+    min-height: 870px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .master-class{
+    max-height: 680px;
+    min-height: 680px;
+  }
+}
+

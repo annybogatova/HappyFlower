@@ -1,0 +1,31 @@
+.plants-care{
+margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+text-align:left;
+margin-left: 200px;
+margin-right: 200px;
+}
+@media screen and (max-width:1599px) {
+  .plants-care{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .plants-care{
+    margin-left: 72px;
+    margin-right: 72px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .plants-care{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+

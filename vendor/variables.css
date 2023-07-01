@@ -1,0 +1,13 @@
+:root{
+  --light-green-color: #D6FFD8;
+  --extra-light-green-color: #FAFFF1;
+  --light-pink-color: #FFE6E5;
+  --dark-red-color: #8B575C;
+
+  --big-header-poster-size: 128px;
+  --normal-header-poster-size: 90px;
+  --small-header-poster-size: 48px;
+
+  --normal-headline-size:36px;
+  --small-headline-size:24px;
+}

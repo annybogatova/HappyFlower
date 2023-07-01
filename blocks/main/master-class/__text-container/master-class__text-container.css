@@ -1,0 +1,42 @@
+.master-class__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  min-width: 570px;
+  max-width: 570px;
+}
+
+@media screen and (max-width: 1024px) {
+  .master-class__text-container {
+    min-width: 554px;
+    max-width: 554px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .master-class__text-container {
+    min-width: 624px;
+    max-width: 624px;
+    margin-left: 0;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .master-class__text-container {
+    min-width: 336px;
+    max-width: 336px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .master-class__text-container {
+    min-width: 228px;
+    max-width: 228px;
+  }
+}

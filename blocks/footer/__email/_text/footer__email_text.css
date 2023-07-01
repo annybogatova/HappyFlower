@@ -1,0 +1,8 @@
+.footer__email_text{
+}
+
+@media screen and (max-width:480px) {
+  .footer__email_text{
+    margin-left: 27px;
+  }
+}
