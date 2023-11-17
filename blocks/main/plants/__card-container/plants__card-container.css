@@ -1,0 +1,21 @@
+.plants__card-container{
+  display: inline-block;
+  overflow: hidden;
+  max-width: 250px;
+  min-width: 250px;
+  max-height: 250px;
+  min-height: 250px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.plants__card-container:hover .plants__card-image{
+  filter: blur(1px);
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.plants__card-container:hover .plants__card-basket{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}

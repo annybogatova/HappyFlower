@@ -1,0 +1,25 @@
+.cart-items{
+  padding: 40px 200px 50px 200px;
+
+}
+
+@media screen and (max-width:1281px) {
+  .cart-items{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cart-items{
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}
+
+@media screen and (max-width:321px) {
+  .cart-items{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -21,16 +21,16 @@
           <li class="list header__list header__list-main"><a class="link header__link header__link-main"
               href="./index.html">HAPPYFLOWER</a>
           </li>
-          <li class="list header__list"><a class="link header__link" href="./shop.html">Магазин</a></li>
+          <li class="list header__list"><a class="link header__link" href="shop.php">Магазин</a></li>
           <li class="list header__list"><a class="link header__link" href="./services.html">Услуги</a></li>
           <li class="list header__list"><a class="link header__link" href="./delivery.html">Доставка</a></li>
           <li class="list header__list"><a class="link header__link" href="./blog.html">Блог</a></li>
         </ul>
       </div>
       <div class="header__menu">
-        <div class="box-bag">
+        <a href="cart.php" class="box-bag">
           <img class="bag" src="./images/header/bag-icon.svg" alt="знак корзины">
-        </div>
+        </a>
         <div class="hamburger">
           <input type="checkbox" id="hamburger__toggle">
           <label class="hamburger__btn" for="hamburger__toggle">
@@ -60,13 +60,13 @@
         <div class="services__composition">
           <div class="services__composition_picture"></div>
           <div class="services__composition_picture services__composition_picture_link">
-            <a class="link" href="./shop.html">ЦВЕТОЧНЫЕ КОМПОЗИЦИИ</a>
+            <a class="link" href="shop.php">ЦВЕТОЧНЫЕ КОМПОЗИЦИИ</a>
           </div>
         </div>
         <div class="services__items">
           <div class="services__items_picture"></div>
           <div class="services__items_picture services__items_picture_link">
-            <a class="link" href="./shop.html">СУККУЛЕНТЫ</a>
+            <a class="link" href="shop.php">СУККУЛЕНТЫ</a>
           </div>
         </div>
         <div class="services__help">
@@ -167,9 +167,7 @@
         <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
       </div>
     </div>
-    <!--#config timefmt="%Y"-->
-    <!--#set var="currentYear" value="$DATE_LOCAL"-->
-    <p class="footer__year">&copy; 2022 - 2023<!--#echo var="currentYear"--> </p>
+    <p class="footer__year">&copy; 2022 - 2023</p>
   </footer>
   <script src="./script/index.js"></script>
 </body>

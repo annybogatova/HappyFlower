@@ -1,0 +1,15 @@
+.cart-items__lines{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 90%;
+  border-bottom: 1px solid #dadada;
+  justify-content: space-between;
+}
+
+.cart-items__lines:nth-child(1){
+  padding-bottom: 10px;
+}
+
+.cart-items__lines:nth-child(1) .cart-items__item:nth-child(1){
+  padding-left: 0;
+}

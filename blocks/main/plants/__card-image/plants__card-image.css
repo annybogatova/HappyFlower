@@ -1,6 +1,12 @@
 .plants__card-image{
   width: 250px;
   height: 250px;
-  border-radius: 8px;
   object-fit: cover;
+  display: block;
+  transition: 0.5s;
+}
+
+.plants__card-image:hover{
+  filter: blur(1px);
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }

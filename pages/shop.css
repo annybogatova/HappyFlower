@@ -41,9 +41,11 @@
 @import '../blocks/main/plants/plants.css';
 @import '../blocks/main/plants/__card/plants__card.css';
 @import '../blocks/main/plants/__cards/plants__cards.css';
+@import '../blocks/main/plants/__card-container/plants__card-container.css';
 @import '../blocks/main/plants/__card-image/plants__card-image.css';
-@import '../blocks/main/plants/__price/plants__price.css';
-@import '../blocks/main/plants/__price-text/plants__price-text.css';
+@import '../blocks/main/plants/__card-basket/plants__card-basket.css';
+@import '../blocks/main/plants/__card-text/plants__card-text.css';
+@import '../blocks/main/plants/__card-text-name/plants__card-text-name.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__container/footer__container.css';
@@ -61,3 +63,17 @@
 @import '../blocks/footer/__vk-icon/footer__vk-icon.css';
 @import '../blocks/footer/__fb-icon/footer__fb-icon.css';
 @import '../blocks/footer/__year/footer__year.css';
+
+
+/*del*/
+@import '../blocks/main/services/services.css';
+@import '../blocks/main/services/__container/services__container.css';
+@import '../blocks/main/services/__composition/services__composition.css';
+@import '../blocks/main/services/__help/services__help.css';
+@import '../blocks/main/services/__items/services__items.css';
+@import '../blocks/main/services/__composition/_picture/services__composition_picture.css';
+@import '../blocks/main/services/__composition/_picture/_link/services__composition_picture_link.css';
+@import '../blocks/main/services/__items/_picture/services__items_picture.css';
+@import '../blocks/main/services/__items/_picture/_link/services__items_picture_link.css';
+@import '../blocks/main/services/__help/_picture/services__help_picture.css';
+@import '../blocks/main/services/__help/_picture/_link/services__help_picture_link.css';
