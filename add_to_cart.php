@@ -12,6 +12,6 @@ if(isset($_POST['product_id'])){
   }
     setcookie("product_id", json_encode($tmp));
 
-  echo 'Успешно';
+  echo 'Продукт добавлен';
 }
 ?>

@@ -1,6 +1,7 @@
 .cart-items__lines{
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   width: 90%;
   border-bottom: 1px solid #dadada;
   justify-content: space-between;
@@ -12,4 +13,10 @@
 
 .cart-items__lines:nth-child(1) .cart-items__item:nth-child(1){
   padding-left: 0;
+  width: 85%;
+
+}
+
+.cart-items__lines:nth-child(1) .cart-items__item:nth-child(3){
+ background: none;
 }

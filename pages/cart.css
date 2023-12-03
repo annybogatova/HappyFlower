@@ -37,15 +37,16 @@
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/main/__headline/main__headline.css';
-/*Plants*/
-@import '../blocks/main/plants/plants.css';
-@import '../blocks/main/plants/__card/plants__card.css';
-@import '../blocks/main/plants/__cards/plants__cards.css';
-@import '../blocks/main/plants/__card-container/plants__card-container.css';
-@import '../blocks/main/plants/__card-image/plants__card-image.css';
+@import "../blocks/main/cart-items/cart-items.css";
+@import "../blocks/main/cart-items/__container/cart-items__container.css";
+@import "../blocks/main/cart-items/__item/cart-items__item.css";
+@import "../blocks/main/cart-items/__lines/cart-items__lines.css";
+@import "../blocks/main/cart-items/__total-text/cart-items__total-text.css";
+@import "../blocks/main/cart-items/__delete/cart-items__delete.css";
+
 @import '../blocks/main/plants/__card-basket/plants__card-basket.css';
-@import '../blocks/main/plants/__card-text/plants__card-text.css';
-@import '../blocks/main/plants/__card-text-name/plants__card-text-name.css';
+
+
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__container/footer__container.css';

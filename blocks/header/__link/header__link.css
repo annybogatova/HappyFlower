@@ -2,6 +2,7 @@
   font-size: 32px;
   line-height: 50px;
   color: black;
+  margin: 0;
 }
 
 .header__link:hover{

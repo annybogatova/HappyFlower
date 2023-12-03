@@ -1,15 +1,6 @@
 <?php
-    $goods = array(
-      1000 =>array("name" => "Эхеверия Таурус", "price" => "400 p.", "img_source" => "./images/shop/plant1.png"),
-      1001 =>array("name" => "Седум Шталя", "price" => "400 p.", "img_source" => "./images/shop/plant2.png"),
-      1002 =>array("name" => "Граптопеталум Аметистовый", "price" => "400 p.", "img_source" => "./images/shop/plant3.png"),
-      1003 =>array("name" => "Синокрассула Юннаньская", "price" => "400 p.", "img_source" => "./images/shop/plant4.png"),
-      1004 =>array("name" => "Хавортия Купера", "price" => "400 p.", "img_source" => "./images/shop/plant5.png"),
-      1005 =>array("name" => "Седум Буррито", "price" => "400 p.", "img_source" => "./images/shop/plant7.png"),
-      1006 =>array("name" => "Мини-садик из суккулентов", "price" => "1500 p.", "img_source" => "./images/shop/plant6.png")
-    );
+  include './readsql.php';
 ?>
-
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -58,26 +49,27 @@
       <h2 class="main__headline">Онлайн-магазин</h2>
       <div class="link plants__cards">
         <?php
-        foreach ($goods as $id => $good){?>
-          <form method="post" action="add_to_cart.php">
-            <input type="hidden" name="product_id" value="<?=$id?>">
-            <input type="hidden" name="product_name" value="<?=$good["name"]?>">
-            <figure class="plants__card">
-              <div class="plants__card-container">
-                <img src="<?=$good["img_source"]?>" class="plants__card-image" alt="<?=$good["name"]?>">
-                <button type="button" class="addToCart" data-product-id="<?=$id?>">
-                  <img src="./images/shop/shopping-basket.png" alt="Корзина" class="plants__card-basket">
-                </button>
-              </div>
-              <figcaption class="plants__card-text">
-                <p class="plants__card-text-name"><?=$good["name"]?></p>
-                <p class="plants__card-text-price"><?=$good["price"]?></p>
-              </figcaption>
-            </figure>
-          </form>
-          <?php
+        if(isset($query_select)){
+          while ($row = $query_select->fetch()){?>
+            <form method="post">
+              <figure class="plants__card">
+                <div class="plants__card-container">
+                  <img src="<?=$row['img_source']?>" class="plants__card-image" alt="<?=$row['name']?>">
+                  <button type="button" class="addToCart" data-product-id="<?=$row['id']?>">
+                    <img src="./images/shop/shopping-basket.png" alt="Корзина" class="plants__card-basket">
+                  </button>
+                </div>
+                <figcaption class="plants__card-text">
+                  <p class="plants__card-text-name"><?=$row['name']?></p>
+                  <p class="plants__card-text-price"><?=$row['price']?> р.</p>
+                </figcaption>
+              </figure>
+            </form>
+            <?php
+          }
         }
         ?>
+
       </div>
     </section>
   </main>
@@ -109,7 +101,6 @@
   </footer>
   <script src="./script/index.js"></script>
 
-
   <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -117,18 +108,15 @@
 
   <script>
     $('.addToCart').on('click', function () {
-      //console.log($(this).attr('data-product-id'));
       let productId = $(this).attr('data-product-id');
-
       $.ajax({
         url: '/add_to_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productId},
         success: function(data){
-          //alert('success');
-          //location.reload();
           console.log(data);
+          // $('.items').prepend(data)
         }
       });
     });
