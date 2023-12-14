@@ -1,5 +1,5 @@
 <?php
-  include './readsql.php';
+  include './script/php/readsql.php';
 ?>
 
 <!DOCTYPE html>
@@ -50,26 +50,46 @@
       <div class="link plants__cards">
         <?php
         if(isset($query_select)){
+          session_start();
           while ($row = $query_select->fetch()){?>
             <form method="post">
               <figure class="plants__card">
                 <div class="plants__card-container">
                   <img src="<?=$row['img_source']?>" class="plants__card-image" alt="<?=$row['name']?>">
-                  <button type="button" class="addToCart" data-product-id="<?=$row['id']?>">
+                  <button type="button" class="button addToCart" data-product-id="<?=$row['id']?>">
                     <img src="./images/shop/shopping-basket.png" alt="Корзина" class="plants__card-basket">
                   </button>
                 </div>
-                <figcaption class="plants__card-text">
-                  <p class="plants__card-text-name"><?=$row['name']?></p>
-                  <p class="plants__card-text-price"><?=$row['price']?> р.</p>
+                <figcaption class="plants__card-description">
+                  <div class="plants__card-description_text">
+                    <p class="plants__card-description_name"><?=$row['name']?></p>
+                    <p class="plants__card-description_price"><?=$row['price']?> р.</p>
+                  </div>
+                  <?php
+                  if(isset($_SESSION['authenticated'])){
+                    ?>
+                    <button type="button" class="button editItem" data-product-id="<?=$row['id']?>">
+                      <img src="./images/shop/edit_btn.svg" alt="Редактировать" class="plants__card-description_button">
+                    </button>
+                    <?php
+                  }
+                  ?>
                 </figcaption>
               </figure>
             </form>
             <?php
           }
         }
+        if(isset($_SESSION['authenticated'])){
         ?>
-
+        <div class="plants__card">
+          <a class="button addGood" href="./editItem.php">
+            <img src="./images/shop/addGood_btn.svg" alt="Добавить товар" class="plants__cards_addGood">
+          </a>
+        </div>
+        <?php
+        }
+        ?>
       </div>
     </section>
   </main>
@@ -95,11 +115,10 @@
         <a class="footer__fb-icon" href="https://ru-ru.facebook.com/"></a>
       </div>
     </div>
-    <!--#config timefmt="%Y"-->
-    <!--#set var="currentYear" value="$DATE_LOCAL"-->
-    <p class="footer__year">&copy; 2022 - 2023<!--#echo var="currentYear"--> </p>
+    <p class="footer__year">&copy; 2022 - 2023</p>
   </footer>
   <script src="./script/index.js"></script>
+  <script src="./script/shop.js"></script>
 
   <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -110,16 +129,18 @@
     $('.addToCart').on('click', function () {
       let productId = $(this).attr('data-product-id');
       $.ajax({
-        url: '/add_to_cart.php',
+        url: '/script/php/add_to_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productId},
         success: function(data){
           console.log(data);
-          // $('.items').prepend(data)
         }
       });
     });
+  </script>
+  <script>
+
   </script>
 
 </body>

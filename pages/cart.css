@@ -43,6 +43,7 @@
 @import "../blocks/main/cart-items/__lines/cart-items__lines.css";
 @import "../blocks/main/cart-items/__total-text/cart-items__total-text.css";
 @import "../blocks/main/cart-items/__delete/cart-items__delete.css";
+@import "../blocks/button/button.css";
 
 @import '../blocks/main/plants/__card-basket/plants__card-basket.css';
 

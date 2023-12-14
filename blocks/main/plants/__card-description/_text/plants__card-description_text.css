@@ -1,6 +1,5 @@
-.plants__card-text{
+.plants__card-description_text{
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }

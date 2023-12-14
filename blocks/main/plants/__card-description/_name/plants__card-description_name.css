@@ -1,5 +1,5 @@
-.plants__card-text-name,
-.plants__card-text-price {
+.plants__card-description_name,
+.plants__card-description_price {
   margin: 6px ;
   color: #000;
   line-height: 20px;
@@ -8,15 +8,15 @@
 }
 
 @media screen and (max-width: 481px) {
-  .plants__card-text-name,
-  .plants__card-text-price {
+  .plants__card-description_name,
+  .plants__card-description_price {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 321px) {
-  .plants__card-text-name,
-  .plants__card-text-price {
+  .plants__card-description_name,
+  .plants__card-description_price {
     font-size: 14px;
     line-height: 25px;
   }

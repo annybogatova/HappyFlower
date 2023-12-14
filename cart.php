@@ -1,5 +1,5 @@
 <?php
-include './readsql.php';
+include './script/php/readsql.php';
 
 ?>
 
@@ -11,15 +11,8 @@ include './readsql.php';
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/cart.css">
+
   <title>Happy Flower</title>
-<style>
-  .deleteAllFromCart,
-  .deleteOneFromCart,
-  .addToCart{
-    background: none;
-    border: none;
-  }
-</style>
 
 </head>
 
@@ -76,16 +69,16 @@ include './readsql.php';
                     <div class="cart-items__item"><?=$row['name']?></div>
                     <div class="cart-items__item"><?=$row['price']?> р.</div>
                     <div class="cart-items__item">
-                      <button type="button" class="deleteOneFromCart" data-product-id="<?=$id?>">
+                      <button type="button" class="button deleteOneFromCart" data-product-id="<?=$id?>">
                         -
                       </button>
                       <p><?=$value['count']?></p>
-                      <button type="button" class="addToCart"  data-product-id="<?=$id?>">
+                      <button type="button" class="button addToCart"  data-product-id="<?=$id?>">
                         +
                       </button>
                     </div>
                     <div class="cart-items__item"><?=($row['price'] * $value['count'])?> р.</div>
-                    <button type="submit" class="deleteAllFromCart" data-product-id="<?=$id?>" >
+                    <button type="submit" class="button deleteAllFromCart" data-product-id="<?=$id?>" >
                       <img src="images/cart/trash1.svg" alt="Удалить товар" class="cart-items__delete">
                     </button>
                   </div>
@@ -138,7 +131,7 @@ include './readsql.php';
     $('.deleteOneFromCart').on('click', function (){
       let productID = $(this).attr('data-product-id');
       $.ajax({
-        url: '/remove_from_cart.php',
+        url: '/script/php/remove_from_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productID},
@@ -152,7 +145,7 @@ include './readsql.php';
     $('.deleteAllFromCart').on('click', function (){
       let productID = $(this).attr('data-product-id');
       $.ajax({
-        url: '/remove_from_cart.php',
+        url: '/script/php/remove_from_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productID, deleteAll: 1},
@@ -166,7 +159,7 @@ include './readsql.php';
     $('.addToCart').on('click', function () {
       let productId = $(this).attr('data-product-id');
       $.ajax({
-        url: '/add_to_cart.php',
+        url: '/script/php/add_to_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productId},

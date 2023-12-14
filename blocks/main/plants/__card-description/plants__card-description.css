@@ -1,0 +1,7 @@
+.plants__card-description{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  min-height: 85px;
+}

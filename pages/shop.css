@@ -37,6 +37,7 @@
 /* Main */
 @import '../blocks/main/main.css';
 @import '../blocks/main/__headline/main__headline.css';
+@import "../blocks/button/button.css";
 /*Plants*/
 @import '../blocks/main/plants/plants.css';
 @import '../blocks/main/plants/__card/plants__card.css';
@@ -44,8 +45,11 @@
 @import '../blocks/main/plants/__card-container/plants__card-container.css';
 @import '../blocks/main/plants/__card-image/plants__card-image.css';
 @import '../blocks/main/plants/__card-basket/plants__card-basket.css';
-@import '../blocks/main/plants/__card-text/plants__card-text.css';
-@import '../blocks/main/plants/__card-text-name/plants__card-text-name.css';
+@import '../blocks/main/plants/__card-description/plants__card-description.css';
+@import '../blocks/main/plants/__card-description/_button/plants__card-description_button.css';
+@import '../blocks/main/plants/__card-description/_name/plants__card-description_name.css';
+@import '../blocks/main/plants/__card-description/_text/plants__card-description_text.css';
+@import '../blocks/main/plants/__cards/_addGood/plants__cards_addGood.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
 @import '../blocks/footer/__container/footer__container.css';

@@ -10,7 +10,7 @@ if(isset($_POST['product_id'])){
   } else{
       $tmp[$_POST["product_id"]]["count"] = 1;
   }
-    setcookie("product_id", json_encode($tmp));
+    setcookie("product_id", json_encode($tmp), time() + 60*60*24, "/");
 
   echo 'Продукт добавлен';
 }
