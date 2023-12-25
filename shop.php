@@ -55,7 +55,7 @@
             <form method="post">
               <figure class="plants__card">
                 <div class="plants__card-container">
-                  <img src="<?=$row['img_source']?>" class="plants__card-image" alt="<?=$row['name']?>">
+                  <img src=".<?=$row['img_source']?>" class="plants__card-image" alt="<?=$row['name']?>">
                   <button type="button" class="button addToCart" data-product-id="<?=$row['id']?>">
                     <img src="./images/shop/shopping-basket.png" alt="Корзина" class="plants__card-basket">
                   </button>
@@ -72,6 +72,12 @@
                       <img src="./images/shop/edit_btn.svg" alt="Редактировать" class="plants__card-description_button">
                     </button>
                     <?php
+                    if(isset($_SESSION['root'])){ ?>
+                      <button type="button" class="button deleteItem" data-product-id="<?=$row['id']?>">
+                        <img src="./images/shop/delete_btn.svg" alt="Удалить" class="plants__card-description_button">
+                      </button>
+                      <?php
+                    }
                   }
                   ?>
                 </figcaption>
@@ -83,7 +89,7 @@
         if(isset($_SESSION['authenticated'])){
         ?>
         <div class="plants__card">
-          <a class="button addGood" href="./editItem.php">
+          <a class="button addGood" href="./editItem.html">
             <img src="./images/shop/addGood_btn.svg" alt="Добавить товар" class="plants__cards_addGood">
           </a>
         </div>
@@ -117,7 +123,7 @@
     </div>
     <p class="footer__year">&copy; 2022 - 2023</p>
   </footer>
-  <script src="./script/index.js"></script>
+  <script src="./script/storage.js"></script>
   <script src="./script/shop.js"></script>
 
   <script
@@ -129,7 +135,7 @@
     $('.addToCart').on('click', function () {
       let productId = $(this).attr('data-product-id');
       $.ajax({
-        url: '/script/php/add_to_cart.php',
+        url: './script/php/add_to_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productId},

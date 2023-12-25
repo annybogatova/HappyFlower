@@ -11,7 +11,7 @@ if(isset($_POST['product_id'])){
   } else{
     unset($tmp[$_POST['product_id']]);
   }
-  setcookie("product_id", json_encode($tmp));
+  setcookie("product_id", json_encode($tmp), time() + 60*60*24, "/");
 
   echo 'Удаление куки';
 }

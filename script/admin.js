@@ -11,7 +11,7 @@ form.onsubmit = function (evt){
     // },
     // 'action': evt
   }
-  fetch('/script/php/auth.php', {
+  fetch('./script/php/auth.php', {
     method: "post",
     body: JSON.stringify(user)
   }).then(response => {

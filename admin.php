@@ -39,7 +39,6 @@
 
     <?php
     if(isset($_SESSION['root'])){
-
     }
   } else{
   ?>

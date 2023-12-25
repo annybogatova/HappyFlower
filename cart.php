@@ -121,7 +121,7 @@ include './script/php/readsql.php';
     </div>
     <p class="footer__year">&copy; 2022 - 2023</p>
   </footer>
-  <script src="./script/index.js"></script>
+  <script src="script/storage.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -131,7 +131,7 @@ include './script/php/readsql.php';
     $('.deleteOneFromCart').on('click', function (){
       let productID = $(this).attr('data-product-id');
       $.ajax({
-        url: '/script/php/remove_from_cart.php',
+        url: './script/php/remove_from_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productID},
@@ -145,7 +145,7 @@ include './script/php/readsql.php';
     $('.deleteAllFromCart').on('click', function (){
       let productID = $(this).attr('data-product-id');
       $.ajax({
-        url: '/script/php/remove_from_cart.php',
+        url: './script/php/remove_from_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productID, deleteAll: 1},
@@ -159,7 +159,7 @@ include './script/php/readsql.php';
     $('.addToCart').on('click', function () {
       let productId = $(this).attr('data-product-id');
       $.ajax({
-        url: '/script/php/add_to_cart.php',
+        url: './script/php/add_to_cart.php',
         method: 'post',
         dataType: 'html',
         data: {product_id: productId},
