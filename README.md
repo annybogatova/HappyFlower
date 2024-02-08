@@ -15,8 +15,9 @@
 ### HTML
 
 1. SEO
-2. Семантическая верстка
-3. Pixel Perfect верстка
+2. HTML forms
+3. Семантическая верстка
+4. Pixel Perfect верстка
 
 ### CSS
 
@@ -26,11 +27,32 @@
 4. Грид верстка
 5. Медиазапросы
 
+## JS
+
+1. DOM
+2. Ajax
+3. fetch()
+
+### PHP
+
+1. Работа с GET и POST запросами
+2. HTTP Cookie
+3. PHP Sessions
+4. MySQL with PDO
+5. File upload
+
 ### Посмотреть макет можно по ссылке ↓
 
 [«Макет Проекта»](https://www.figma.com/file/w5Fm9bIOhhXJekeLC1vQb1/HappyFlower?node-id=2%3A3)
 
+### Результат
 
-### Посмотреть сайт можно по ссылке ↓
+На данный момент сайт реализован на локальном сервере
 
-[«Сам Проект»](https://annybogatova.github.io/HappyFlower/)
+Вкладка "Магазин":
+![изображение](https://github.com/annybogatova/HappyFlower/assets/96336462/c9a32d73-f2c3-4669-8062-c390a17e626f)
+Для администратора:
+![изображение](https://github.com/annybogatova/HappyFlower/assets/96336462/f6b53fa1-31e6-4900-830a-5d1a3062021f)
+Вкладка "Корзина"
+![изображение](https://github.com/annybogatova/HappyFlower/assets/96336462/1e85d473-6069-45b7-8c89-b153a201ee9e)
+
